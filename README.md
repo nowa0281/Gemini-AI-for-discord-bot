@@ -17,9 +17,10 @@ This Discord bot utilizes the powerful Gemini AI generative language model from 
 1. **Prerequisites:**
    - Python 3.6 or later ([https://www.python.org/downloads/](https://www.python.org/downloads/))
    - Discord account and developer portal access ([https://discord.com/developers/applications](https://discord.com/developers/applications))
-   - Gemini AI API key ([PLACEHOLDER: How to obtain a Gemini AI API key])
+   - Gemini AI API key
 2. **Clone or download the repository.**
-3. **Install dependencies:**
+3. **Replace your discord_token with your token in code or you can set enviroment variable (same goes with gemini API, 'GEMINI_API_KEY')**
+4. **Install dependencies:**
 
    ```bash
    pip install discord google-generativeai
